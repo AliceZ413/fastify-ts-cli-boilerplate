@@ -64,5 +64,6 @@ test/types/index.js
 # compiled app
 dist
 .output/
+vite.config.js.*
 
 .history/
