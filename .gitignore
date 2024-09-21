@@ -63,5 +63,6 @@ test/types/index.js
 
 # compiled app
 dist
+.output/
 
 .history/
