@@ -1,12 +1,17 @@
 {
   "extends": "fastify-tsconfig",
   "compilerOptions": {
+    "strict": true,
     "outDir": "dist",
     "sourceMap": true,
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
+    "moduleResolution": "Bundler",
+    "module": "ES2022",
     "target": "ES2022",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["vite/client"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts"]
 }

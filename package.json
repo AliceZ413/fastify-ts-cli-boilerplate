@@ -37,6 +37,9 @@
     "fastify-cli": "^7.0.0",
     "fastify-tsconfig": "^2.0.0",
     "typescript": "^5.2.2",
-    "vite": "^5.4.7"
+    "vike": "^0.4.196",
+    "vite": "^5.4.7",
+    "vite-plugin-cjs-interop": "^2.1.4",
+    "vue-tsc": "^2.1.6"
   }
 }
